@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Notes</title>
+
+	<link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="vendors/bootstrap/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<div class="container">
+
+		<h1>Notes application</h1>
+
+		<div id="notes" class="notes">
+			<!--<div class="note">-->
+				<!--<a class="note-remove">-->
+					<!--<span class="glyphicon glyphicon-remove"></span>-->
+				<!--</a>-->
+				<!--<p class="note-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce diam dui, iaculis a magna sed, elementum consectetur sem. Sed ut est arcu. Etiam ut lobortis ante. Nullam ullamcorper ante quis consequat feugiat. Ut euismod arcu eu vestibulum sollicitudin. Morbi nibh orci, elementum ut massa vitae, suscipit maximus nibh. Vestibulum eget eleifend nunc. Etiam et pharetra diam. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>-->
+				<!--<p class="text-muted text-right note-date"><small>03-07-2016 17:00</small></p>-->
+			<!--</div>-->
+			<!--<div class="note">-->
+				<!--<a class="note-remove">-->
+					<!--<span class="glyphicon glyphicon-remove"></span>-->
+				<!--</a>-->
+				<!--<p class="note-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce diam dui, iaculis a magna sed, elementum consectetur sem. Sed ut est arcu. Etiam ut lobortis ante. Nullam ullamcorper ante quis consequat feugiat. Ut euismod arcu eu vestibulum sollicitudin. Morbi nibh orci, elementum ut massa vitae, suscipit maximus nibh. Vestibulum eget eleifend nunc. Etiam et pharetra diam. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>-->
+				<!--<p class="text-muted text-right note-date"><small>03-07-2016 17:00</small></p>-->
+			<!--</div>-->
+			<!--<div class="note">-->
+				<!--<a class="note-remove">-->
+					<!--<span class="glyphicon glyphicon-remove"></span>-->
+				<!--</a>-->
+				<!--<p class="note-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce diam dui, iaculis a magna sed, elementum consectetur sem. Sed ut est arcu. Etiam ut lobortis ante. Nullam ullamcorper ante quis consequat feugiat. Ut euismod arcu eu vestibulum sollicitudin. Morbi nibh orci, elementum ut massa vitae, suscipit maximus nibh. Vestibulum eget eleifend nunc. Etiam et pharetra diam. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>-->
+				<!--<p class="text-muted text-right note-date"><small>03-07-2016 17:00</small></p>-->
+			<!--</div>-->
+		</div>
+
+		<div id="createNoteForm" class="form-group">
+			<textarea id="newNoteText" class="form-control" rows="4" placeholder="Note text..."></textarea>
+
+			<div class="text-right">
+				<button id="cancelBtn" class="btn btn-default">Cancel</button>
+				<button id="saveBtn" class="btn btn-primary" disabled>Save</button>
+			</div>
+		</div>
+
+		<button id="createNoteBtn" class="btn btn-primary btn-block">Create note</button>
+	</div>
+
+	<script src="js/app.js"></script>
+</body>
+</html>
